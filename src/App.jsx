@@ -99,7 +99,7 @@ function App() {
 	].map((location) => <option value={location}>{location}</option>);
 
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename='/job-board-app'>
 			<main className={theme}>
 				<section className='header-container'>
 					<Link to='/'>
