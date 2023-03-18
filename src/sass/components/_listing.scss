@@ -1,0 +1,46 @@
+.listing {
+	width: pxToRem(327px);
+	max-height: pxToRem(228px);
+	position: relative;
+	border-radius: pxToRem(6px);
+
+	@media screen and (min-width: 700px) {
+		width: pxToRem(339px);
+	}
+
+	.listing__logo {
+		position: absolute;
+		top: -15%;
+		left: 30px;
+	}
+	.listing__wrapper {
+		display: flex;
+		flex-direction: column;
+		padding: pxToRem(45px) pxToRem(30px);
+
+		.listing__title {
+			font-weight: 700;
+			font-size: pxToRem(20px);
+			margin: pxToRem(15px) 0;
+		}
+
+		p:first-of-type,
+		p:nth-of-type(2) {
+			color: #6e8098;
+		}
+
+		p:nth-of-type(3) {
+			color: #5964e0;
+			font-size: pxToRem(14px);
+			font-weight: 700;
+			margin-top: pxToRem(30px);
+		}
+	}
+}
+
+.listing:hover {
+	cursor: pointer;
+	.listing__title {
+		color: #6e8098;
+	}
+}
