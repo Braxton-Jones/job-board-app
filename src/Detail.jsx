@@ -11,7 +11,7 @@ function Detail(props) {
 
 	return (
 		<>
-			<section className={'description {props.theme}'}>
+			<section className={'description'}>
 				<section className='description__header'>
 					<div style={logoStyles} className='description__logo'></div>
 					<div className='description__title'>

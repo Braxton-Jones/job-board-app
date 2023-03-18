@@ -372,11 +372,12 @@ main {
 
 .dark {
 	background-color: #121721;
-	height: 100vh;
+	height: fit-content;
 
 	.filter-container,
 	.description__body,
 	.description__footer,
+	.description__header,
 	.listing {
 		background-color: #19202d;
 	}
@@ -386,7 +387,8 @@ main {
 	.filter__fulltime,
 	.listing__title,
 	.description__position,
-	.description__position--subtitle {
+	.description__position--subtitle,
+	.description__body h3{
 		color: white;
 	}
 
@@ -411,6 +413,7 @@ main {
 	.filter-container,
 	.description__link,
 	.description__body,
+	.description__header,
 	.listing {
 		background-color: white;
 	}
