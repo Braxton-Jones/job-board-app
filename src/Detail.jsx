@@ -5,8 +5,9 @@ function Detail(props) {
 	const job = props.details.filter(
 		(data) => data.company === params.company,
 	)[0];
+	const logoUrl = new URL(job.logo, import.meta.url).toString();
 	const logoStyles = {
-		background: `url(${job.logo}) ${job.logoBackground} no-repeat center`,
+		background: `url(${logoUrl}) ${job.logoBackground} no-repeat center`,
 	};
 
 	return (
