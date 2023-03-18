@@ -1,9 +1,10 @@
 import './sass/components/_listing.scss';
 import { Link } from 'react-router-dom';
 function Listing(props) {
+	const logoUrl = new URL(props.logoSrc, import.meta.url).href;
 	const logoStyles = {
 		backgroundColor: `${props.logoBG}`,
-		background: `url(${props.logoSrc}) no-repeat ${props.logoBG} center`,
+		background: `url(${logoUrl}) no-repeat ${props.logoBG} center`,
 		width: '50px',
 		height: '50px',
 		borderRadius: '25%',

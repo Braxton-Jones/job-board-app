@@ -2,7 +2,7 @@
 	{
 		"id": 1,
 		"company": "Scoot",
-		"logo": "src/assets/logos/scoot.svg",
+		"logo": "./assets/logos/scoot.svg",
 		"logoBackground": "hsl(36, 87%, 49%)",
 		"position": "Senior Software Engineer",
 		"postedAt": "5h ago",
@@ -33,7 +33,7 @@
 	{
 		"id": 2,
 		"company": "Blogr",
-		"logo": "src/assets/logos/blogr.svg",
+		"logo": "./assets/logos/blogr.svg",
 		"logoBackground": "hsl(12, 79%, 52%)",
 		"position": "Haskell and PureScript Dev",
 		"postedAt": "20h ago",
@@ -64,7 +64,7 @@
 	{
 		"id": 3,
 		"company": "Vector",
-		"logo": "src/assets/logos/vector.svg",
+		"logo": "./assets/logos/vector.svg",
 		"logoBackground": "hsl(235, 10%, 23%)",
 		"position": "Midlevel Back End Engineer",
 		"postedAt": "1d ago",
