@@ -9,7 +9,7 @@ function Listing(props) {
 		height: '50px',
 		borderRadius: '25%',
 	};
-
+``
 	return (
 		<section className={`listing ${props.theme}`}>
 			<div style={logoStyles} className='listing__logo'>
