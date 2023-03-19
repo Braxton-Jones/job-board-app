@@ -1,21 +1,9 @@
-import blogr from "./assets/logos/blogr.svg"
-import coffeeroasters from './assets/logos/coffeeroasters.svg';
-import creative from './assets/logos/creative.svg';
-import crowdfund from './assets/logos/crowdfund.svg';
-import maker from './assets/logos/maker.svg';
-import mastercraft from './assets/logos/mastercraft.svg';
-import officelite from './assets/logos/officelite.svg';
-import pod from './assets/logos/pod.svg';
-import pomodoro from './assets/logos/pomodoro.svg';
-import scoot from './assets/logos/scoot.svg';
-import typemaster from './assets/logos/typemaster.svg';
-import vector from './assets/logos/vector.svg';
 
 const data = [
 	{
 		id: 1,
 		company: 'Scoot',
-		logo: {scoot},
+		logo: 'src/assets/logos/scoot.svg',
 		logoBackground: 'hsl(36, 87%, 49%)',
 		position: 'Senior Software Engineer',
 		postedAt: '5h ago',
@@ -49,7 +37,7 @@ const data = [
 	{
 		id: 2,
 		company: 'Blogr',
-		logo: './assets/logos/blogr.svg',
+		logo: 'src/assets/logos/blogr.svg',
 		logoBackground: 'hsl(12, 79%, 52%)',
 		position: 'Haskell and PureScript Dev',
 		postedAt: '20h ago',
@@ -83,7 +71,7 @@ const data = [
 	{
 		id: 3,
 		company: 'Vector',
-		logo: './assets/logos/vector.svg',
+		logo: 'src/assets/logos/vector.svg',
 		logoBackground: 'hsl(235, 10%, 23%)',
 		position: 'Midlevel Back End Engineer',
 		postedAt: '1d ago',
@@ -116,7 +104,7 @@ const data = [
 	{
 		id: 4,
 		company: 'Office Lite',
-		logo: {officelite},
+		logo: 'src/assets/logos/officelite.svg',
 		logoBackground: 'hsl(227, 62%, 48%)',
 		position: 'Senior Application Engineer',
 		postedAt: '2d ago',
