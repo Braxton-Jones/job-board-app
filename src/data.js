@@ -1,9 +1,10 @@
-
+import scootLogo from "./assets/logos/scoot.svg"
+import officeLiteLogo from "./assets/logos/officelite.svg"
 const data = [
 	{
 		id: 1,
 		company: 'Scoot',
-		logo: 'src/assets/logos/scoot.svg',
+		logo: scootLogo,
 		logoBackground: 'hsl(36, 87%, 49%)',
 		position: 'Senior Software Engineer',
 		postedAt: '5h ago',
@@ -104,7 +105,7 @@ const data = [
 	{
 		id: 4,
 		company: 'Office Lite',
-		logo: 'src/assets/logos/officelite.svg',
+		logo: officeLiteLogo,
 		logoBackground: 'hsl(227, 62%, 48%)',
 		position: 'Senior Application Engineer',
 		postedAt: '2d ago',
