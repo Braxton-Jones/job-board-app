@@ -1,5 +1,5 @@
 import './sass/main.scss';
-import data from '../data.json';
+import data from './data';
 import Listing from './Listing.jsx';
 import Detail from './Detail.jsx';
 import { useState } from 'react';
