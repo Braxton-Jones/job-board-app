@@ -1,5 +1,16 @@
 import scootLogo from "./assets/logos/scoot.svg"
-import officeLiteLogo from "./assets/logos/officelite.svg"
+import blogrLogo from "./assets/logos/blogr.svg"
+import coffeeroastersLogo from './assets/logos/coffeeroasters.svg';
+import creativeLogo from './assets/logos/creative.svg';
+import crowdfundLogo from './assets/logos/crowdfund.svg';
+import makerLogo from './assets/logos/maker.svg';
+import mastercraftLogo from './assets/logos/mastercraft.svg';
+import podLogo from './assets/logos/pod.svg';
+import pomodoroLogo from './assets/logos/pomodoro.svg';
+import typemasterLogo from './assets/logos/typemaster.svg';
+import vectorLogo from './assets/logos/vector.svg';
+import officeLiteLogo from './assets/logos/officelite.svg';
+
 const data = [
 	{
 		id: 1,
@@ -38,7 +49,7 @@ const data = [
 	{
 		id: 2,
 		company: 'Blogr',
-		logo: 'src/assets/logos/blogr.svg',
+		logo: blogrLogo,
 		logoBackground: 'hsl(12, 79%, 52%)',
 		position: 'Haskell and PureScript Dev',
 		postedAt: '20h ago',
@@ -140,7 +151,7 @@ const data = [
 	{
 		id: 5,
 		company: 'Pod',
-		logo: 'src/assets/logos/pod.svg',
+		logo: podLogo,
 		logoBackground: 'hsl(216, 46%, 14%)',
 		position: 'Remote DevOps Engineer',
 		postedAt: '2d ago',
@@ -179,7 +190,7 @@ const data = [
 	{
 		id: 6,
 		company: 'Creative',
-		logo: 'src/assets/logos/creative.svg',
+		logo: creativeLogo,
 		logoBackground: 'hsl(295, 55%, 21%)',
 		position: 'Desktop Support Manager',
 		postedAt: '4d ago',
@@ -216,7 +227,7 @@ const data = [
 	{
 		id: 7,
 		company: 'Pomodoro',
-		logo: 'src/assets/logos/pomodoro.svg',
+		logo: pomodoroLogo,
 		logoBackground: 'hsl(254, 71%, 45%)',
 		position: 'iOS Engineer',
 		postedAt: '1w ago',
@@ -250,7 +261,7 @@ const data = [
 	{
 		id: 8,
 		company: 'Maker',
-		logo: 'src/assets/logos/maker.svg',
+		logo: makerLogo,
 		logoBackground: 'hsl(218, 58%, 31%)',
 		position: 'Senior EJB Developer',
 		postedAt: '1w ago',
@@ -284,7 +295,7 @@ const data = [
 	{
 		id: 9,
 		company: 'Coffeeroasters',
-		logo: 'src/assets/logos/coffeeroasters.svg',
+		logo: coffeeroastersLogo,
 		logoBackground: 'hsl(29, 60%, 87%)',
 		position: 'Senior Frontend Developer',
 		postedAt: '1w ago',
@@ -318,7 +329,7 @@ const data = [
 	{
 		id: 10,
 		company: 'Mastercraft',
-		logo: 'src/assets/logos/mastercraft.svg',
+		logo: mastercraftLogo,
 		logoBackground: 'hsl(0, 0%, 12%)',
 		position: 'App & Website Designer',
 		postedAt: '2w ago',
@@ -354,7 +365,7 @@ const data = [
 	{
 		id: 11,
 		company: 'Crowdfund',
-		logo: 'src/assets/logos/crowdfund.svg',
+		logo: crowdfundLogo,
 		logoBackground: 'hsl(157, 57%, 50%)',
 		position: 'Fullstack Developer',
 		postedAt: '1mo ago',
@@ -390,7 +401,7 @@ const data = [
 	{
 		id: 12,
 		company: 'Typemaster',
-		logo: 'src/assets/logos/typemaster.svg',
+		logo: typemasterLogo,
 		logoBackground: 'hsl(22, 89%, 52%)',
 		position: 'Technical Lead Engineer',
 		postedAt: '1mo ago',
@@ -425,7 +436,7 @@ const data = [
 	{
 		id: 13,
 		company: 'Crowdfund',
-		logo: 'src/assets/logos/crowdfund.svg',
+		logo: crowdfundLogo,
 		logoBackground: 'hsl(157, 57%, 50%)',
 		position: 'Front-end Developer',
 		postedAt: '1mo ago',
@@ -460,7 +471,7 @@ const data = [
 	{
 		id: 14,
 		company: 'Coffeeroasters',
-		logo: 'src/assets/logos/coffeeroasters.svg',
+		logo: coffeeroastersLogo,
 		logoBackground: 'hsl(29, 60%, 87%)',
 		position: 'Junior Full-Stack Developer',
 		postedAt: '1mo ago',
@@ -495,7 +506,7 @@ const data = [
 	{
 		id: 15,
 		company: 'Blogr',
-		logo: 'src/assets/logos/blogr.svg',
+		logo: blogrLogo,
 		logoBackground: 'hsl(12, 79%, 52%)',
 		position: 'Midweight Front-end Developer',
 		postedAt: '1mo ago',

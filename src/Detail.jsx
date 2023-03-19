@@ -5,16 +5,17 @@ function Detail(props) {
 	const job = props.details.filter(
 		(data) => data.company === params.company,
 	)[0];
-	const logoUrl = new URL(job.logo, import.meta.url).href;
 	const logoStyles = {
-		background: `url(${logoUrl}) ${job.logoBackground} no-repeat center`,
+		background: `${job.logoBackground} no-repeat center`,
 	};
 
 	return (
 		<>
 			<section className={'description'}>
 				<section className='description__header'>
-					<div style={logoStyles} className='description__logo'></div>
+					<div style={logoStyles} className='description__logo'>
+						<img src={job.logo} />
+					</div>
 					<div className='description__title'>
 						<h2 className='description__position'>{job.company}</h2>
 						<p>{job.company.toLowerCase()}.com</p>
