@@ -1,9 +1,10 @@
 import './sass/components/_listing.scss';
 import { Link } from 'react-router-dom';
 function Listing(props) {
+
 	const logoStyles = {
 		backgroundColor: `${props.logoBG}`,
-		background: `url(${props.logoSrc}) no-repeat ${props.logoBG} center`,
+		background: `no-repeat ${props.logoBG} center`,
 		width: '50px',
 		height: '50px',
 		borderRadius: '25%',
@@ -11,7 +12,9 @@ function Listing(props) {
 
 	return (
 		<section className={`listing ${props.theme}`}>
-			<div style={logoStyles} className='listing__logo'></div>
+			<div style={logoStyles} className='listing__logo'>
+				<img src={props.logoSrc}/>
+			</div>
 			<div className='listing__wrapper'>
 				<p>
 					{props.postDate} - {props.contractType}
