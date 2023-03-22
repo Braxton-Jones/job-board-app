@@ -83,7 +83,7 @@ const data = [
 	{
 		id: 3,
 		company: 'Vector',
-		logo: 'src/assets/logos/vector.svg',
+		logo: vectorLogo,
 		logoBackground: 'hsl(235, 10%, 23%)',
 		position: 'Midlevel Back End Engineer',
 		postedAt: '1d ago',

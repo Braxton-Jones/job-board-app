@@ -9,9 +9,6 @@ function Listing(props) {
 		height: '50px',
 		borderRadius: '25%',
 	};
-
-	console.log(props.logoSrc)
-
 	return (
 		<section className={`listing ${props.theme}`}>
 			<div style={logoStyles} className='listing__logo'>
