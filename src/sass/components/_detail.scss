@@ -57,6 +57,7 @@
 			@media screen and (min-width: 700px) {
 				margin: 0;
 				text-align: left;
+	
 			}
 		}
 
@@ -65,16 +66,9 @@
 			font-weight: 700;
 			padding: pxToRem(15px) pxToRem(20px);
 			border-radius: pxToRem(6px);
-			margin-bottom: pxToRem(40px);
+			margin-left: auto;
+			margin-right: pxToRem(20px);
 			cursor: pointer;
-			@media screen and (min-width: 700px) {
-				margin: 0;
-				margin-left: pxToRem(245px);
-			}
-			@media screen and (min-width: 1280px) {
-				margin: 0;
-				margin-left: pxToRem(280px);
-			}
 		}
 	}
 

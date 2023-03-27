@@ -2,14 +2,27 @@ import './sass/main.scss';
 import data from './data';
 import Listing from './Listing.jsx';
 import Detail from './Detail.jsx';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import logo from './assets/desktop/logo.svg';
 import sun from './assets/desktop/icon-sun.svg';
 import moon from './assets/desktop/icon-moon.svg';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import Joblist from './Joblist.jsx';
+import ScrollToTop from './utility/ScrollToTop';
 
 function App() {
+	useEffect(() => {
+		window.addEventListener('hashchange', () => {
+			window.scrollTo(0, 0);
+		});
+
+		return () => {
+			window.removeEventListener('hashchange', () => {
+				window.scrollTo(0, 0);
+			});
+		};
+	}, []);
+
 	const [renderAmount, setRenderAmount] = useState(12);
 	const [location, setLocation] = useState('');
 	const [title, setTitle] = useState('');
@@ -100,6 +113,7 @@ function App() {
 
 	return (
 		<BrowserRouter>
+		<ScrollToTop/>
 			<main className={theme}>
 				<section className='header-container'>
 					<Link to='/'>
@@ -118,6 +132,7 @@ function App() {
 				</section>
 
 				<Routes>
+					
 					<Route
 						path='/'
 						element={
